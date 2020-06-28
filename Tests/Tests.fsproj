@@ -11,6 +11,7 @@
     <Compile Include="IteratorTest.fs" />
     <Compile Include="AdapterInheritanceTest.fs" />
     <Compile Include="AdapterDelegationTest.fs" />
+    <Compile Include="TemplateMethodTest.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -25,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Iterator\Iterator.fsproj" />
     <ProjectReference Include="..\Adapter\Adapter.fsproj" />
+    <ProjectReference Include="..\TemplateMethod\TemplateMethod.fsproj" />
   </ItemGroup>
 
 </Project>
