@@ -13,6 +13,7 @@
     <Compile Include="AdapterDelegationTest.fs" />
     <Compile Include="TemplateMethodTest.fs" />
     <Compile Include="FactoryMethodTest.fs" />
+    <Compile Include="SingletonTest.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -29,6 +30,7 @@
     <ProjectReference Include="..\Adapter\Adapter.fsproj" />
     <ProjectReference Include="..\TemplateMethod\TemplateMethod.fsproj" />
     <ProjectReference Include="..\FactoryMethod\FactoryMethod.fsproj" />
+    <ProjectReference Include="..\Singleton\Singleton.fsproj" />
   </ItemGroup>
 
 </Project>
