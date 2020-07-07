@@ -16,6 +16,7 @@
     <Compile Include="SingletonTest.fs" />
     <Compile Include="PrototypeTest.fs" />
     <Compile Include="BuilderTests.fs" />
+    <Compile Include="AbstractFactoryTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -35,6 +36,7 @@
     <ProjectReference Include="..\Singleton\Singleton.fsproj" />
     <ProjectReference Include="..\Prototype\Prototype.fsproj" />
     <ProjectReference Include="..\Builder\Builder.fsproj" />
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.fsproj" />
   </ItemGroup>
 
 </Project>
