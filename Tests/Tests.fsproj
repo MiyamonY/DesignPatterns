@@ -17,6 +17,7 @@
     <Compile Include="PrototypeTest.fs" />
     <Compile Include="BuilderTests.fs" />
     <Compile Include="AbstractFactoryTests.fs" />
+    <Compile Include="BridgeTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -37,6 +38,7 @@
     <ProjectReference Include="..\Prototype\Prototype.fsproj" />
     <ProjectReference Include="..\Builder\Builder.fsproj" />
     <ProjectReference Include="..\AbstractFactory\AbstractFactory.fsproj" />
+    <ProjectReference Include="..\Bridge\Bridge.fsproj" />
   </ItemGroup>
 
 </Project>
